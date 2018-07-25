@@ -94,6 +94,8 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="video_cam.json" />
+    <BundleResource Include="Resources\video_cam.json" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -158,8 +160,5 @@
       <Project>{A3D90586-64CC-4640-9BFD-B733245E2742}</Project>
       <Name>LottieExemplo</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Upload.json" />
   </ItemGroup>
 </Project>

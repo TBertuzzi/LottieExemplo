@@ -5,7 +5,6 @@
              xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              x:Class="LottieExemplo.MainPage" Padding="0,20,0,0">
     <StackLayout>
-        <!-- Place new controls here -->
         <Label Text="Lottie!" 
                 />
 
