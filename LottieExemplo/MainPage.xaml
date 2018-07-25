@@ -9,11 +9,11 @@
         <Label Text="Lottie!" 
                 />
 
-         <lottie:AnimationView
-                    x:Name="AnimationView"
-                    Animation="Upload.json"
-                    AutoPlay="True"
-                    Loop="true"
-                   />
+        <forms:AnimationView 
+                x:Name="AnimationView" 
+                Animation="video_cam.json" 
+                AutoPlay="True" Loop="true"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand" />
     </StackLayout>
 </ContentPage>
